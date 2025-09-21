@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <!-- 
-    You must have: 
-    - a profile picture image
-    - Name
-    - Title
-    - Phone Number
-    - Company/Organization Name
+    <div class="page">
+        <article class="card">
+            <img
+                class="avatar"
+                src="images/tony_soprano.png"
+                alt="Tony Soprano"
+                width="220"
+                height="220"
+            />
+        
+            <header class="identity">
+                <h1 class="name">Tony Soprano</h1>
+                <p class="title">Waste Management Consultant</p>
+            </header>
 
-    -->
-    
-
-
+            <div class="pod pod--contact">
+                <a class="phone" href="tel:+19175550157">+1 (917) 555-0157</a>
+            </div>
+        
+            <div class="pod pod--company">
+                <h2 class="company">Barone Sanitation</h2>
+                <p class="slogan">"Waste Management with a Personal Touch"</p>
+            </div>
+        </article>
+    </div>
 </body>
 </html>
